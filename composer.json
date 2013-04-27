@@ -1,0 +1,18 @@
+{
+    "require": {
+        "php"                   : ">=5.3.3",
+        "silex/silex"           : "1.0.*@dev",
+        "symfony/twig-bridge"   : "~2.2",
+        "twig/twig"             : "~1.10",
+        "predis/predis"         : "0.8.*@dev"
+    },
+    "require-dev": {
+        "symfony/debug"         : "2.3.*@dev"
+    },
+    "minimum-stability"         : "dev",
+    "autoload": {
+        "psr-0": {
+            "App"               : "src/"
+        }
+    }
+}

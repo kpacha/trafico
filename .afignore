@@ -1,0 +1,5 @@
+*~
+composer*
+.git
+nbproject/
+*.md
