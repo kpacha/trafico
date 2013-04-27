@@ -82,6 +82,6 @@ class XMLReaderService
     
     public function getAtributes()
     {
-        return $this->_getXml()->attributes();
+        return $this->_xml()->attributes();
     }
 }
