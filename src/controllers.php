@@ -27,7 +27,7 @@ $app->get('/api', function () use ($app) {
     if (!$content) {
         $content = json_encode($app['dgt']->getContent());
         $app['cache']->set('api', $content);
-        $app['cache']->expire('api', 250);
+        $app['cache']->expire('api', 30);
     }
     $response->setContent($content);
     $response->setPublic();
